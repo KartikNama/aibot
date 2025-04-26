@@ -2,3 +2,8 @@
 enableCORS = false
 enableXsrfProtection = false
 headless = true
+baseUrlPath = ""
+enableWebsocketCompression = false
+enableWebsocketCompression = true
+serverAddress = "0.0.0.0"
+serverPort = 8501

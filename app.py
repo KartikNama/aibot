@@ -11,7 +11,7 @@ from langchain.chains import RetrievalQA
 
 __import__('pysqlite3')
 import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 # Environment variables
 os.environ["COHERE_API_KEY"] = 'ZpvBSDjoZJae3CsAlFC6qcdiXNEvmVV0Z7ZwCxhz'
